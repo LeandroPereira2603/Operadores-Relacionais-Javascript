@@ -1,0 +1,102 @@
+*{
+    margin: 0px;
+    padding: 0px;   
+}
+
+body{
+
+}
+
+.titulo{
+    text-align: center;   
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+     'um   um um um '
+     '  dois   tres quatro quatro'
+     'cinco seis   seis  seis ' 
+     ' sete  sete  sete  oito ';
+    
+                           
+
+}
+
+.cont-dois{
+    display: grid;
+    grid-area: "dois";
+    background-color: blueviolet;
+    width: 100%;
+    height: 500px;
+
+}
+
+.cont-um{
+    display: grid;
+    grid-area: "um";
+    background-color: aqua;
+    width: 100%;
+    height: 500px;
+
+}
+
+.cont-tres{
+    display: grid;
+    grid-area: "tres";
+    background-color: rgb(44, 158, 158);
+    width: 100%;
+    height: 500px;
+
+}
+
+.cont-quatro{
+    display: grid;
+    grid-area: "quatro";
+    background-color: rgb(212, 44, 44);
+    width: 100%;
+    height: 500px;
+
+}
+.cont-cinco{
+    display: grid;
+    grid-area: "cinco";
+    background-color: rgb(104, 151, 27);
+    width: 100%;
+    height: 500px;
+
+}
+
+.cont-seis{
+    display: grid;
+    grid-area: "seis";
+    background-color: aqua;
+    width: 100%;
+    height: 500px;
+
+}
+.cont-sete{
+    display: grid;
+    grid-area: "sete";
+    background-color: rgb(5, 105, 105);
+    width: 100%;
+    height: 500px;
+}
+    .cont-oito{
+        display: grid;
+        grid-area: "oito";
+        background-color: rgb(112, 17, 221);
+        width: 100%;
+        height: 500px;
+    }
+
+
+/* media celular */
+@media screen and (max-width:700px){
+
+
+
+
+}
